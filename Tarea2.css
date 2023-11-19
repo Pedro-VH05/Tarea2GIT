@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+#titulo{
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+#subtitulo{
+    margin-left: 10px;
+}
+#menu{
+    background-color: green;
+    height: 10vh;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.componentesMenu{
+    margin: 10px;
+    color: white
+}
+#contenido{
+    height: 60vh;
+    font-weight: bold;
+    margin: 10px;
+}
+footer{
+    background-color: black;
+    height: calc(20vh - 11px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
