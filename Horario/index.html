@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <title>Horario</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>Horario 1º DAM</header>
+    <table>
+        <tr>
+            <td class="dias"></td>
+            <td class="dias">Lunes</td>
+            <td class="dias">Martes</td>
+            <td class="dias">Miércoles</td>
+            <td class="dias">Jueves</td>
+            <td class="dias">Viernes</td>
+        </tr>
+        <tr>
+            <td class="hora">8:15 - 9:15</td>
+            <td class="entorno">Entorno de Desarrollo</td>
+            <td class="fol">Formación y Orientación Laboral</td>
+            <td class="entorno" rowspan="2">Entorno de Desarrollo</td>
+            <td class="fol" rowspan="2">Formación y Orientación Laboral</td>
+            <td class="bbdd" rowspan="2">Base de Datos</td>
+        </tr>
+        <tr>
+            <td class="hora">9:15 - 10:15</td>
+            <td class="programacion" rowspan="2">Programación</td>
+            <td class="sistemas" rowspan="2">Sistemas informáticos</td>
+        </tr>
+        <tr>
+            <td class="hora">10:15 - 11:15</td>
+            <td class="sistemas">Sistemas Informáticos</td>
+            <td class="bbdd">Base de Datos</td>
+            <td class="sistemas">Sistemas Informáticos</td>
+        </tr>
+        <tr>
+            <td class="hora">11:15 - 11:45</td>
+            <td id="recreo" colspan="5">Recreo</td>
+        </tr>
+        <tr>
+            <td class="hora">11:45 - 12:45</td>
+            <td class="bbdd" rowspan="2">Base de Datos</td>
+            <td class="programacion" rowspan="3">Programación</td>
+            <td class="sistemas">Sistemas Informáticos</td>
+            <td class="bbdd">Base de Datos</td>
+            <td class="sistemas">Sistemas Informáticos</td>
+        </tr>
+        <tr>
+            <td class="hora">12:45 - 13:45</td>
+            <td class="lenguaje" rowspan="2">Lenguaje de Marca</td>
+            <td class="programacion" rowspan="2">Programación</td>
+            <td class="lenguaje">Lenguaje de Marca</td>
+        </tr>
+        <tr>
+            <td class="hora">13:45 - 14:45</td>
+            <td class="lenguaje">Lenguaje de Marca</td>
+            <td class="programacion">Programación</td>
+        </tr>
+    </table>
+</body>
+</html>

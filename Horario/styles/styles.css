@@ -1,0 +1,76 @@
+tr, td{
+    width: 150px;
+    height: 69px;
+    border: 2px black solid;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 107%;
+    color: #303030;
+}
+
+table{
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+    border-collapse: collapse;  
+}
+
+header{
+    width: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 1.2%;
+    border: 3px black solid;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f4f0e5;
+}
+
+body{
+    background-color: #c3e6d4;
+}
+
+.dias{
+    background-color: #f4f0e5;
+}
+
+.hora{
+    background-color: #e0c4ae;
+}
+
+.entorno{
+    background-color: #A5E1E9;
+}
+
+.fol{
+    background-color: #D5EDC9;
+}
+
+.bbdd{
+    background-color: #C4BDF3;
+}
+
+.programacion{
+    background-color: #FCE8A5;
+}
+
+.sistemas{
+    background-color: #FFC296;
+}
+
+.lenguaje{
+    background-color: #F8CADC;
+}
+
+#recreo{
+    background-color: #f86254;
+}
